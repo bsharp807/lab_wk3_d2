@@ -13,12 +13,12 @@
           <label for="title" class="primary">Title</label>
           <input type="text" id="title" required/>
         </div>
-
+        <br>
         <div class="form-item">
           <label for="author" class="primary">Author</label>
           <input type="text" id="author" required/>
         </div>
-
+        <br>
         <div class="form-item">
           <label for="category" class="primary">Category</label>
           <select id="category">
@@ -29,10 +29,13 @@
           </select>
         </div>
       </div>
-      <input type="submit" value="save"/>
+      <br>
+      <input type="submit" value="Save"/>
     </form>
+    <br>
+    <button id='delete-all' type='button'>Delete All</button>
 
     <h1>Reading List</h1>
-    <div id="reading-list"></div>
+    <div id="reading-list" class= "container"></div>
   </body>
 </html>
